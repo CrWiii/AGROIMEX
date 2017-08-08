@@ -1,0 +1,41 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+html,body{
+  min-width: 980px;
+}
+
+#section-kmt{
+  .kmt-form-content{
+    .kmt-form-addon{
+      > div{
+        .input.kmt-location{
+          max-width: 1000px !important;
+        }
+      }
+    }
+  }
+}
+
+.gallery-item.gallery-grid .view{
+  .mask,
+  .content{
+    display: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;
+  }
+  &:hover{
+  	.mask,
+    .content{
+    	display: block;
+  	}
+  }
+}
+
+*[data-stellar-background-ratio]{
+  background-position-x: 50% !important;
+}
+
+ul#grid-list{
+  white-space: nowrap;
+}

@@ -1,0 +1,72 @@
+/***************************************************************************************/
+/*
+/*		Designed by 'AS Designing'
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*
+/***************************************************************************************/
+
+@media (max-width: 640px) 
+{
+	
+	.contact_details
+	{
+		margin-bottom: 25px;
+	}
+	
+	.contact_details .contact_details_item
+	{
+		width: 100%;
+		float: none;
+	}
+	
+	.layout-mode
+	{
+		float: none;
+	}
+
+	.sequence-slider > .sequence-canvas li > .info .btn-info
+	{
+	}
+	
+	.mod-custom__video .module-content .module-content-inner h3
+	{
+		margin-bottom: 5px;
+	}
+	
+	.caroufredsel_prev, 
+	.caroufredsel_next
+	{
+		top: 418px !important;
+		margin-top: 0 !important;
+	}
+	
+	.btn-primary, .btn-small, btn-info
+	{
+		width: auto;
+	}
+
+	#content-row-6 .item_num0 .item_content,
+	#content-row-6 .item_num1 .item_content,
+	#content-row-6 .item_num2 .item_content,
+	#content-row-6 .item_num3 .item_content,
+	#content-row-6 .item_num4 .item_content,
+	#content-row-6 .item_num5 .item_content,
+	#content-row-6 .item_num6 .item_content,
+	#content-row-6 .item_num7 .item_content
+	{
+		padding: 90px 20px 15px 20px;
+	}
+
+	.gallery-item.gallery-grid .view .item_introtext 
+	{
+		display: none;
+	}
+	
+	.gallery-item.gallery-grid .view .item_title 
+	{
+		font-size: 12px;
+		margin-bottom: 5px !important;
+	}	
+	
+}

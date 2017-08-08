@@ -1,0 +1,98 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+.mod_caroufredsel{
+  overflow: hidden;
+}
+
+.caroufredsel_wrapper{
+  cursor: auto !important;
+}
+
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      padding: 0 20px;
+      margin: 0;
+      display: block;
+      float: left;
+    }
+  }
+} 
+
+@media (max-width: 1200px) {
+  .list_carousel {
+    margin: 0 0 0 -@gridGutterWidth;
+    ul {
+      li {
+        padding: 0 0 0 @gridGutterWidth;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width: 979px) {
+  .list_carousel {
+    margin: 0 0 0 -@gridGutterWidth768;
+    ul {
+      li {
+        padding: 0 0 0 @gridGutterWidth768;
+      }
+    }
+  }
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/*Navigation*/
+
+.caroufredsel_prev,
+.caroufredsel_next{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  line-height: 55px;
+  text-align: center;
+  color: #333;
+  font-size: 48px;
+  z-index: 100;
+  .transition(all 0.5s ease);
+  cursor: pointer;
+  &:hover{
+    color: #53c344;
+  }
+}
+
+.caroufredsel_prev{
+  left: -60px;
+}
+
+.caroufredsel_next{
+  right: -90px;
+}
+
+/*Pagination*/
+
+.caroufredsel_pagination{
+  text-align: center;
+  a{
+    display: inline-block;
+    padding: 0 0.5em;
+  }
+}

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.0" type="template" client="site">
+	<name>AS 002085</name>
+	<creationDate>2015-12-03</creationDate>
+	<updateDate>2016-07-06</updateDate>
+	<version>2.0.0</version>
+	<author>AS Designing</author>
+    <authorUrl>http://www.asdesigning.com</authorUrl>
+    <copyright>AS Designing</copyright>
+    <license>GNU/GPL</license>
+	
+	<description>
+	<![CDATA[
+
+			<img src="../templates/as002085/template_thumbnail.png" align="left" class="template_thumbnail" 
+					style="margin: 0px 40px 10px 0px; display: none;" />
+					
+			<h1><span  style="padding-top: 10px; display: block">AS Template 002085 - Premium Version for Joomla! 3</span></h1>
+			
+			<br /><a href="http://www.astemplates.com/joomla-template-documentation/436-002085" target="_blank">Click here</a>  to see the template documentation.
+			<br /><a href="http://www.astemplates.com/joomla-template-comments/436-002085" target="_blank">Click here</a> to ask your questions.
+			<br />Check our <a href="http://blog.astemplates.com/category/joomla-tutorial/" target="_blank">Joomla Tutorial</a>.
+			<br /><a href="http://www.astemplates.com/customservices" target="_blank">Click here</a> for our customzation services.<br />
+												
+			<br />Visit our site for more templates: <a href="http://www.astemplates.com" target="_blank">http://www.astemplates.com</a>.
+			<br /><br /><br /><br /><br />
+			<hr />
+			<br />
+			
+			<h3><b>Popular AS Templates:</b></h3><br />
+			    <a href="http://www.astemplates.com/joomla-template-details/434-002083" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/434/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/219-002060" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/219/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/550-002097" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/550/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/157-002044" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/157/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/545-002096" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/545/template.thumbnail.png">
+				</a><br /><br />
+				
+			    <a href="http://www.astemplates.com/joomla-template-details/212-002057" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/212/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/228-002063" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/228/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/218-002059" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/218/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/458-002091" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/458/template.thumbnail.png">
+				</a>
+			    <a href="http://www.astemplates.com/joomla-template-details/445-002090" target="_blank" style="margin: 10px 20px 20px 0px;">
+				<img src="http://www.astemplates.com/content/templates/445/template.thumbnail.png">
+				</a>				
+			<br /><br />]]>
+	</description>	
+	<files>
+		<filename>component.php</filename>
+		<filename>index.php</filename>
+		<filename>error.php</filename>
+		<filename>offline.php</filename>
+		<filename>fonts.php</filename>
+		<filename>params.php</filename>
+		<filename>styles.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+		
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>fonts</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>includes</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.tpl_as002085.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_as002085.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_as002085.sys.ini</language>
+		<language tag="es-ES">es-ES/es-ES.tpl_as002085.ini</language>
+		<language tag="fr-FR">fr-FR/fr-FR.tpl_as002085.ini</language>
+		<language tag="it-IT">it-IT/it-IT.tpl_as002085.ini</language>
+		<language tag="pl-PL">pl-PL/pl-PL.tpl_as002085.ini</language>
+		<language tag="pt-BR">pt-BR/pt-BR.tpl_as002085.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.tpl_as002085.ini</language>
+	</languages>
+
+	<positions>
+		<position>as-mainmenu</position>
+		<position>as-slider</position>
+		<position>as-breadcrumbs</position>
+		
+		<position>as-content-1</position>
+		<position>as-content-2</position>
+		<position>as-content-3</position>
+		<position>as-content-4</position>
+		<position>as-content-5</position>
+		<position>as-content-6</position>
+		<position>as-content-7</position>
+		<position>as-content-8</position>
+		<position>as-left-top</position>
+		<position>as-left-bottom</position>
+		<position>as-content-top</position>
+		<position>as-content-bottom</position>
+		<position>as-right-top</position>
+		<position>as-right-bottom</position>		
+		<position>as-content-9</position>
+
+		<position>as-footer-1</position>
+		<position>as-footer-2</position>
+		<position>as-footer-3</position>
+		<position>as-copyright</position>
+
+		<position>modal</position>
+		<position>debug</position>
+	</positions>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="layout" label="TPL_FIELDSET_LAYOUT">
+			<field type="spacer" label="&lt;link rel='stylesheet' href='../templates/as002085/css/tmpl.admin.css' type='text/css' /&gt;" />
+			<field 
+				name="theme_style"
+				type="list"
+				default="default"
+				label="TPL_THEME_STYLE_LABEL"
+				description="TPL_THEME_STYLE_DESC">
+					<option value="default">Default</option>
+					<option value="blueivy">Blue Ivy</option>
+					<option value="coffee">Coffee</option>
+					<option value="copper">Copper</option>
+					<option value="coral">Coral</option>
+					<option value="firebrick">Fire Brick</option>          
+					<option value="iguana">Iguana</option> 
+					<option value="jetgray">Jet Gray</option> 
+					<option value="purple">Purple</option> 
+					<option value="teal">Teal</option>          
+			</field>
+			<field type="spacer" label=" " />
+					
+			<field 
+				name="theme_layout" 
+				class="btn-group" 
+				type="radio" 
+				default="1" 
+				label="TPL_THEME_LAYOUT_LABEL" 
+				description="TPL_THEME_LAYOUT_DESC">
+					<option value="1">TPL_FLUID</option>
+					<option value="0">TPL_FIXED</option>
+			</field>
+			<field name="theme_responsive"
+				type="radio"
+				default="1"
+				class="btn-group"
+				label="TPL_THEME_RESPONSIVE_LABEL"
+				description="TPL_THEME_RESPONSIVE_DESC">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+			</field>			
+			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		
+			<field type="spacer" label="TPL_LOGO_LABEL" description="TPL_LOGO_DESC"></field>
+		
+			<field 
+				name="logo_img" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_THEME_LOGO_LABEL"
+				description="TPL_THEME_LOGO_DESC">
+			</field>
+			<field 
+				name="logo_slogan" 
+				type="text" 
+				default="" 
+				label="TPL_THEME_LOGO_SLOGAN" 
+				description="TPL_THEME_SLOGAN_DESC">
+			</field>			
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_ASIDES_LABEL" description="TPL_SPACER_ASIDES_DESC"></field>
+		
+			<field 
+				name="aside_left_width" 
+				type="integer" 
+				first="1" 
+				last="6" 
+				step="1"
+				default="4" 
+				label="TPL_THEME_ASIDE_LEFT_WIDTH" 
+				description="TPL_THEME_ASIDE_LEFT_WIDTH_DESC">    
+			</field>
+			<field 
+				name="aside_right_width" 
+				type="integer" 
+				first="1" 
+				last="6" 
+				step="1" 
+				default="4"
+				label="TPL_THEME_ASIDE_RIGHT_WIDTH" 
+				description="TPL_THEME_ASIDE_RIGHT_WIDTH_DESC">
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />			
+		
+			<field type="spacer" label="TPL_FOOTER_LABEL" description="TPL_FOOTER_DESC"></field>
+		
+			<field 
+				name="show_footer_logo" 
+				class="btn-group" 
+				type="radio" 
+				default="0" 
+				label="TPL_FOOTER_LOGO_LABEL">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field 
+				name="footer_logo_img" 
+				class="" 
+				type="media" 
+				default=""
+				label="TPL_THEME_FOOTER_LOGO_LABEL"
+				description="TPL_THEME_FOOTER_LOGO_DESC">
+			</field>
+			<field 
+				name="footer_copy" 
+				class="btn-group" 
+				type="radio" 
+				default="1" 
+				label="TPL_COPY_LABEL" >
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field 
+				name="show_footer_year" 
+				class="btn-group" 
+				type="radio" 
+				default="1" 
+				label="TPL_YEAR_LABEL" >
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="typography" label="TPL_FIELDSET_TYPOGRAPHY">
+			<field type="spacer" label=" " />
+
+			<field name="body_font_family" 
+				type="list" 
+				default="Lato" 
+				label="TPL_BODY_FONT_FAMILY_LABEL" 
+				description="TPL_BODY_FONT_FAMILY_DESC">
+					<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif</option>
+					<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman</option>
+					<option value="'Courier New', Courier, monospace">Courier New, Courier</option>
+					<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+					<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica</option>
+					<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+					<option value="'Times New Roman', Times, serif">Times New Roman, Times</option>
+					<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+					<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+					<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode</option>	
+					<option value="ABeeZee">Google:ABeeZee</option>
+					<option value="Acme">Google:Acme</option>
+					<option value="Advent Pro">Google:Advent Pro</option>
+					<option value="Arimo">Google:Arimo</option>
+					<option value="Arizonia">Google:Arizonia</option>
+					<option value="Arvo">Google:Arvo</option>					
+					<option value="Average">Google:Average</option>
+					<option value="BenchNine">Google:BenchNine</option>
+					<option value="Carme">Google:Carme</option>
+					<option value="Comfortaa">Google:Comfortaa</option>
+					<option value="Convergence">Google:Convergence</option>
+					<option value="Cuprum">Google:Cuprum</option>
+					<option value="Droid Sans">Google:Droid Sans</option>
+					<option value="Droid Serif">Google:Droid Serif</option>
+					<option value="Exo">Google:Exo</option>
+					<option value="Felipa">Google:Felipa</option>
+					<option value="Fredoka One">Google:Fredoka One</option>						
+					<option value="Hammersmith One">Google:Hammersmith One</option>
+					<option value="Homenaje">Google:Homenaje</option>
+					<option value="Istok Web">Google:Istok Web</option>
+					<option value="Jockey One">Google:Jockey One</option>
+					<option value="Josefin Slab">Google:Josefin Slab</option>
+					<option value="Jura">Google:Jura</option>
+					<option value="Lato">Google:Lato</option>
+					<option value="Libre Baskerville">Google:Libre Baskerville</option>
+					<option value="Lora">Google:Lobster</option>
+					<option value="Lora">Google:Lobster Two</option>
+					<option value="Lora">Google:Lora</option>														
+					<option value="Macondo">Google:Macondo</option>
+					<option value="Marmelad">Google:Marmelad</option>
+					<option value="Michroma">Google:Michroma</option>
+					<option value="Montserrat">Google:Montserrat</option>
+					<option value="Monsieur La Doulaise">Google:Monsieur La Doulaise</option>						
+					<option value="Mr Bedfort">Google:Mr Bedfort</option>
+					<option value="Muli">Google:Muli</option>
+					<option value="Numans">Google:Numans</option>
+					<option value="Open Sans">Google:Open Sans</option>
+					<option value="Oswald">Google:Oswald</option>
+					<option value="Oxygen">Google:Oxygen</option>
+					<option value="Parisienne">Google:Parisienne</option>
+					<option value="Pontano Sans">Google:Pontano Sans</option>						
+					<option value="PT Sans">Google:PT Sans</option>	
+					<option value="PT Serif">Google:PT Serif</option>												
+					<option value="Prosto One">Google:Prosto One</option>
+					<option value="Questrial">Google:Questrial</option>
+					<option value="Raleway">Google:Raleway</option>
+					<option value="Roboto">Google:Roboto</option>
+					<option value="Roboto Condensed">Google:Roboto Condensed</option>
+					<option value="Roboto Slab">Google:Roboto Slab</option>										
+					<option value="Rouge Script">Google:Rouge Script</option>						
+					<option value="Russo One">Google:Russo One</option>
+					<option value="Sacramento">Google:Sacramento</option>
+					<option value="Salsa">Google:Salsa</option>						
+					<option value="Sail">Google:Sail</option>												
+					<option value="Sevillana">Google:Sevillana</option>						
+					<option value="Signika">Google:Signika</option>
+					<option value="Six Caps">Google:Six Caps</option>
+					<option value="Source Sans Pro">Google:Source Sans Pro</option>					
+					<option value="Tangerine">Google:Tangerine</option>												
+					<option value="Tulpen One">Google:Tulpen One</option>
+					<option value="Ubuntu">Google:Ubuntu</option>											
+			</field>			
+			<field
+				name="heading_font_family"
+				type="list"
+				default="Lato"
+				label="TPL_HEADING_FONT_FAMILY_LABEL"
+				description="TPL_HEADING_FONT_FAMILY_DESC"> 
+					<option value="Tahoma, Geneva, sans-serif, Arial">Tahoma, Geneva, sans-serif</option>
+					<option value="Georgia, 'Times New Roman', Times, serif">Georgia, Times New Roman</option>
+					<option value="'Courier New', Courier, monospace">Courier New, Courier</option>
+					<option value="Arial, Helvetica, sans-serif">Arial, Helvetica, sans-serif</option>
+					<option value="'Trebuchet MS', Arial, Helvetica, sans-serif">Trebuchet MS, Arial, Helvetica</option>
+					<option value="'Verdana, Geneva, sans-serif">Verdana, Geneva, sans-serif</option>
+					<option value="'Times New Roman', Times, serif">Times New Roman, Times</option>
+					<option value="'MS Serif', 'New York', serif">MS Serif, New York, serif</option>
+					<option value="'Comic Sans MS', cursive">Comic Sans MS, cursive</option>
+					<option value="'Lucida Sans Unicode', 'Lucida Grande', sans-serif">Lucida Sans Unicode</option>	
+					<option value="ABeeZee">Google:ABeeZee</option>
+					<option value="Acme">Google:Acme</option>
+					<option value="Advent Pro">Google:Advent Pro</option>
+					<option value="Arimo">Google:Arimo</option>
+					<option value="Arizonia">Google:Arizonia</option>
+					<option value="Arvo">Google:Arvo</option>					
+					<option value="Average">Google:Average</option>
+					<option value="BenchNine">Google:BenchNine</option>
+					<option value="Carme">Google:Carme</option>
+					<option value="Comfortaa">Google:Comfortaa</option>
+					<option value="Convergence">Google:Convergence</option>
+					<option value="Cuprum">Google:Cuprum</option>
+					<option value="Droid Sans">Google:Droid Sans</option>
+					<option value="Droid Serif">Google:Droid Serif</option>
+					<option value="Exo">Google:Exo</option>
+					<option value="Felipa">Google:Felipa</option>
+					<option value="Fredoka One">Google:Fredoka One</option>						
+					<option value="Hammersmith One">Google:Hammersmith One</option>
+					<option value="Homenaje">Google:Homenaje</option>
+					<option value="Istok Web">Google:Istok Web</option>
+					<option value="Jockey One">Google:Jockey One</option>
+					<option value="Josefin Slab">Google:Josefin Slab</option>
+					<option value="Jura">Google:Jura</option>
+					<option value="Lato">Google:Lato</option>
+					<option value="Libre Baskerville">Google:Libre Baskerville</option>
+					<option value="Lora">Google:Lobster</option>
+					<option value="Lora">Google:Lobster Two</option>
+					<option value="Lora">Google:Lora</option>														
+					<option value="Macondo">Google:Macondo</option>
+					<option value="Marmelad">Google:Marmelad</option>
+					<option value="Michroma">Google:Michroma</option>
+					<option value="Montserrat">Google:Montserrat</option>
+					<option value="Monsieur La Doulaise">Google:Monsieur La Doulaise</option>						
+					<option value="Mr Bedfort">Google:Mr Bedfort</option>
+					<option value="Muli">Google:Muli</option>
+					<option value="Numans">Google:Numans</option>
+					<option value="Open Sans">Google:Open Sans</option>
+					<option value="Oswald">Google:Oswald</option>
+					<option value="Oxygen">Google:Oxygen</option>
+					<option value="Parisienne">Google:Parisienne</option>
+					<option value="Pontano Sans">Google:Pontano Sans</option>						
+					<option value="PT Sans">Google:PT Sans</option>	
+					<option value="PT Serif">Google:PT Serif</option>												
+					<option value="Prosto One">Google:Prosto One</option>
+					<option value="Questrial">Google:Questrial</option>
+					<option value="Raleway">Google:Raleway</option>
+					<option value="Roboto">Google:Roboto</option>
+					<option value="Roboto Condensed">Google:Roboto Condensed</option>
+					<option value="Roboto Slab">Google:Roboto Slab</option>										
+					<option value="Rouge Script">Google:Rouge Script</option>						
+					<option value="Russo One">Google:Russo One</option>
+					<option value="Sacramento">Google:Sacramento</option>
+					<option value="Salsa">Google:Salsa</option>						
+					<option value="Sail">Google:Sail</option>												
+					<option value="Sevillana">Google:Sevillana</option>						
+					<option value="Signika">Google:Signika</option>
+					<option value="Six Caps">Google:Six Caps</option>
+					<option value="Source Sans Pro">Google:Source Sans Pro</option>					
+					<option value="Tangerine">Google:Tangerine</option>												
+					<option value="Tulpen One">Google:Tulpen One</option>
+					<option value="Ubuntu">Google:Ubuntu</option>					         
+			</field>
+			<field type="spacer" label=" " />
+			
+			<field 
+				name="body_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_BODY_FONT_SIZE_LABEL" 
+				description="TPL_BODY_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h1_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H1_FONT_SIZE_LABEL" 
+				description="TPL_H1_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h2_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H2_FONT_SIZE_LABEL" 
+				description="TPL_H2_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h3_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H3_FONT_SIZE_LABEL" 
+				description="TPL_H3_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h4_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H4_FONT_SIZE_LABEL" 
+				description="TPL_H4_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h5_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H5_FONT_SIZE_LABEL" 
+				description="TPL_H5_FONT_SIZE_DESC">
+			</field>
+			<field 
+				name="h6_font_size" 
+				type="text" 
+				default="" 
+				label="TPL_H6_FONT_SIZE_LABEL" 
+				description="TPL_H6_FONT_SIZE_DESC">
+			</field>															
+						
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />			
+
+			<field type="spacer" label="TPL_SPACER_FEATURED_TYPO_LABEL" description="TPL_SPACER_FEATURED_TYPO_DESC"></field>
+							
+			<field 
+				name="featured_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>          
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="featured_item_heading"
+				type="list"
+				default="h4"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_CATEGORY_TYPO_LABEL" description="TPL_SPACER_CATEGORY_TYPO_DESC"></field>
+	
+			<field 
+				name="category_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>          
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="category_item_heading"
+				type="list"
+				default="h3"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_BLOG_TYPO_LABEL" description="TPL_SPACER_BLOG_TYPO_DESC"></field>
+	
+			<field 
+				name="blog_page_heading"
+				type="list"
+				default="h1"
+				label="TPL_PAGE_HEADING_LABEL"
+				description="TPL_PAGE_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field 
+				name="blog_item_heading"
+				type="list"
+				default="h2"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_ITEM_TYPO_LABEL" description="TPL_SPACER_ITEM_TYPO_DESC"></field>
+	
+			<field 
+				name="item_item_heading"
+				type="list"
+				default="h1"
+				label="TPL_ITEM_HEADING_LABEL"
+				description="TPL_ITEM_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>          
+			<field 
+				name="itemblog_item_heading"
+				type="list"
+				default="h3"
+				label="TPL_ITEM_BLOG_HEADING_LABEL"
+				description="TPL_ITEM_BLOG_HEADING_DESC">
+					<option value="h1">h1</option>
+					<option value="h2">h2</option>
+					<option value="h3">h3</option>
+					<option value="h4">h4</option>
+					<option value="h5">h5</option>
+					<option value="h6">h6</option>  
+					<option value="p">p</option>          
+			</field>
+			
+			<field type="spacer" label=" " />
+		</fieldset>
+		
+		<fieldset name="features" label="TPL_FIELDSET_FEATURES">
+			<field type="spacer" label=" " />		
+			<field type="spacer" label="TPL_SPACER_TOTOP_LABEL" description="TPL_SPACER_TOTOP_DESC"></field>
+			
+			<field
+				name="totop"
+				type="radio"
+				class="btn-group" 
+				default="1"
+				label="TPL_THEME_TOTOP"
+				description="TPL_THEME_TOTOP_DESC">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field
+				name="totop_text"
+				type="text"
+				default="Back to top"
+				label="TPL_THEME_TOTOP_TEXT"
+				description="TPL_THEME_TOTOP_TEXT_DESC">          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+			<field type="spacer" label="TPL_SPACER_TODESKTOP_LABEL" description="TPL_SPACER_TODESKTOP_DESC"></field>
+			
+			<field
+				name="todesktop"
+				type="radio"
+				class="btn-group" 
+				default="1"
+				label="TPL_THEME_TODESKTOP"
+				description="TPL_THEME_TODESKTOP_DESC">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+			</field>
+			<field
+				name="todesktop_text"
+				type="text"
+				default="Back to desktop version"
+				label="TPL_THEME_TODESKTOP_TEXT"
+				description="TPL_THEME_TODESKTOP_TEXT_DESC">          
+			</field>
+			<field
+				name="tomobile_text"
+				type="text"
+				default="Back to mobile version"
+				label="TPL_THEME_TOMOBILE_TEXT"
+				description="TPL_THEME_TOMOBILE_TEXT_DESC">          
+			</field>
+			<field type="spacer" label=" " />
+			<field type="spacer" label=" " />
+			
+		</fieldset>
+	</fields>
+	</config>
+</extension>

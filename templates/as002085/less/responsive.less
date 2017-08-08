@@ -1,0 +1,702 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+
+/*== 1200px and beyond ===================================================
+========================================================================*/
+
+/* Large desktop */
+@media (max-width: 1600px) {
+  .mod-custom__devices .lazy_container{
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 1400px) {
+  h1{
+    font-size: 100px;
+    line-height: 100px;
+  }
+  .sequence-prev{
+    left: 20px !important;
+  }
+  .sequence-next{
+    right: 20px !important;
+  }
+  .sequence-slider > .sequence-canvas li > .info{
+    width: auto !important;
+    margin-left: 0 !important;
+    left: 100px !important;
+    right: 100px;
+  }
+  .caroufredsel_prev{
+    left: 20px !important;
+  }
+  .caroufredsel_next{
+    right: 0px !important;
+  }
+  .gallery-item.gallery-grid .view .item_title{
+    margin-bottom: 0;
+  }
+  .gallery-grid .view p{
+    padding-bottom: 0;
+  }
+} 
+
+/*== Up to 1200px =====================================================
+========================================================================*/
+
+/* Large desktop */
+@media (max-width: 1200px) {
+
+  #contact_map{
+    height: 376px;
+  }
+  .row-fluid{
+    margin-left: -@gridGutterWidth;
+    [class*="itemSpan"],
+    [class*="span"]{
+      padding-left: @gridGutterWidth;
+    }
+  }
+  .fluid{
+    margin-left: -@gridGutterWidth;
+  }
+
+  .navigation ul.sf-menu > li > a, .navigation ul.sf-menu > li > span{
+    padding: 0 14px;
+  }
+  h1{
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .sequence-slider > .sequence-canvas li > .info .camera_caption{
+    font-size: 80px !important;
+    line-height: 80px !important;
+  }
+  #logo{
+    margin-left: 20px;
+  }
+  .navigation{
+    margin-right: 20px;
+  }
+  .sequence-slider > .sequence-canvas li > .info .btn-info{
+    line-height: 60px !important;
+    padding: 0 20px !important;
+    height: 60px !important;
+  }
+  .radial-progress{
+    width: 220px;
+    height: 220px;
+  }
+  .radial-progress .circle .mask{
+    clip: rect(0px, 220px, 220px, 110px);
+    height: 220px;
+    width: 220px;
+  }
+  .radial-progress .circle .mask .fill{
+    width: 204px;
+    height: 204px;
+    clip: rect(0px, 110px, 220px, 0px);
+  }
+  .radial-progress .inset{
+    height: 204px;
+    width: 204px;
+  }
+  .radial-progress .inset .percentage{
+    left: 42px;
+    top: 80.5px;
+  }
+  .caroufredsel_prev, .caroufredsel_next{
+    top: 140px !important;
+    margin-top: 0 !important;
+  }
+  .page-category__team{
+    .social_team li{
+      margin: 0 1px;
+    }
+  }
+
+} 
+
+/*== Up to 980px ======================================================
+========================================================================*/
+
+/* Narrow desktop */
+@media (max-width: 979px) {
+  
+  .thumbnails {
+    margin-left: -12px;
+  }
+  .thumbnails > li {
+    margin-left: 12px;
+  }
+
+  /*footer*/
+  #back-top{
+    display: none !important;
+  }
+
+  .row-fluid{
+    margin-left: -@gridGutterWidth768;
+    [class*="itemSpan"],
+    [class*="span"]{
+      padding-left: @gridGutterWidth768;
+    }
+  }
+  .fluid{
+    margin-left: -@gridGutterWidth768;
+  }
+  h1{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .sequence-slider > .sequence-canvas li > .info .camera_caption{
+    font-size: 60px !important;
+    line-height: 60px !important;
+  }
+
+  .navigation ul.sf-menu > li > a, .navigation ul.sf-menu > li > span{
+    padding: 0 5px;
+    font-size: 16px;
+  }
+  .radial-progress{
+    width: 173px;
+    height: 173px;
+  }
+  .radial-progress .circle .mask{
+    clip: rect(0px, 173px, 173px, 86px);
+    height: 173px;
+    width: 173px;
+  }
+  .radial-progress .circle .mask .fill{
+    width: 157px;
+    height: 157px;
+    clip: rect(0px, 86px, 173px, 0px);
+  }
+  .radial-progress .inset{
+    height: 157px;
+    width: 157px;
+  }
+  .radial-progress .inset .percentage{
+    left: 18.5px;
+    top: 57px;
+  }
+  .team .item_container .social_team li a{
+    font-size: 20px;
+    line-height: 37px;
+    width: 37px;
+  }
+  .pricing .row-fluid .item_container .price{
+    font-size: 50px;
+  }
+  .blog .item .item_content .item_introtext{
+    font-size: @baseFontSize;
+    text-transform: none;
+    line-height: @baseLineHeight;
+    left: 10px;
+    right: 10px;
+    bottom: 30px;
+  }
+  .blog .item .item_content .item_title{
+    top: 10px;
+    left: 10px;
+    margin-right: 10px;
+  }
+  .blog .item .item_content .item_info{
+    left: 10px;
+    bottom: 5px;
+  }
+  .gallery-grid .view p{
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .page-category__team{
+    .social_team li{
+      a{
+        width: 46px;
+        line-height: 46px;
+      }
+    }
+  }
+
+}
+
+/*== Up to 980px and beyond 768px ======================================
+========================================================================*/
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+
+
+}
+
+
+/*== Up to 767px ======================================================
+========================================================================*/
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px){
+
+  body{
+    padding: 0;
+    .row-container{
+      padding: 0 20px;
+    }
+  }
+
+  // Stick to bottom footer styles
+  #wrapper{
+    margin: 0;
+  }
+
+  #footer-wrapper{
+    height: auto;
+  }
+
+  #push{
+    display: none;
+  }
+
+  #logo{
+    float: none;
+    margin-left: 0;
+    text-align: center;
+    a{
+      margin: 0;
+    }
+  }
+
+  .blog .item .item_content .item_introtext{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .moduletable.devices{
+    margin-bottom: 40px;
+  }
+
+  .team{
+    font-size: 0;
+    line-height: 0;
+    .item{
+      font-size: @baseFontSize;
+      line-height: @baseLineHeight;
+      display: inline-block !important;
+      width: 50% !important;
+      vertical-align: top;
+      .item_img a,
+      .lazy_container{
+        width: 100% !important;
+      }
+    }
+  }
+
+  .pricing .row-fluid .item + .item .item_container{
+    border-left-color: #c3c3c3;
+  }
+
+  .priorities{
+    font-size: 0;
+    line-height: 0;
+    .item{
+      font-size: @baseFontSize;
+      line-height: @baseLineHeight;
+      display: inline-block !important;
+      width: 50% !important;
+      vertical-align: top;
+    }
+  }
+
+  .gallery {
+    .mix{
+      width: 50% !important;
+    }
+  }
+
+  .blog{
+    .item{
+      width: 50% !important;
+      float: left !important;
+    }
+  }
+
+  .pricing{
+    .item{
+      width: 50% !important;
+      float: left !important;
+    }
+  }
+
+  .body__home #header-row{
+    background: #fff;
+    position: static;
+  }
+  .sequence-prev, .sequence-next{
+    width: 25px !important;
+  }
+  .sequence-slider > .sequence-canvas li > .info{
+    left: 50px !important;
+    right: 50px;
+  }
+
+  .navigation{
+    float: none;
+    margin-right: 0;
+    padding: 20px 20px;
+  }
+
+  .nav.menu.pull-right.nav-pills{
+    float: none;
+    text-align: center;
+    li{
+      float: none;
+      display: inline-block;
+    }
+  }
+
+  .social{
+    text-align: left;
+    padding: 10px 0;
+  }
+
+
+  /*content*/
+
+    [class*="cols"]{
+      [class*="span"]{
+        width: 100%;
+      }
+    }
+
+  .item-image.blog-image{
+    float: none;
+    margin: 0 0 20px 0;
+  }
+
+  .row-fluid{
+    [class*="itemSpan"],
+    [class*="span"]{
+      display: block;
+      float: none;
+      margin-left: 0;
+      width: auto;
+    }
+  }
+
+  /*gallery*/
+  .page-gallery{
+    ul.gallery{
+      .gallery-grid{
+        width: 49.99%;
+        max-width: 49.99%;
+      }
+    }
+  }
+
+  .page-gallery ul.gallery .gallery-grid .view .item_img{
+    max-width: 100%;
+    a{
+      display: block;
+    }
+  }
+
+  .img-full__left.span5{
+    width: 50%;
+  }
+
+  /*contact*/
+  .contact_details{
+    .contact_details_item{
+      width: 30%;
+      float: left;
+    }
+  }
+
+  .page-gallery ul.gallery .gallery-grid .view{
+    margin: 0 auto;
+    .item_img{
+      float: none;
+      margin: 0 !important;
+    }
+  }
+
+  /*Modules*/
+
+  /*search*/
+  .mod-search__aside{
+    .mod-search_searchword{
+      width: 50%;
+    }
+  }
+
+  /*login*/
+  .mod-login__aside{
+    .mod-login_username,
+    .mod-login_passwd{
+      width: 50%;
+    }
+  }
+
+  #back-top{
+    display:none !important;
+  }
+  .scrolled #logo h1 span{
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .scrolled #logo{
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  #logo{
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+
+}
+
+/*== Up to 640px ==================================================
+====================================================================*/
+
+@media (max-width: 640px) {
+
+  /*contact*/
+
+  .contact_details{
+    margin-bottom: @baseLineHeight;
+    .contact_details_item{
+      width: 100%;
+      float: none;
+    }
+  }
+
+  h3{
+    font-size: 59px;
+    line-height: 70px;
+  }
+
+  .layout-mode{
+    float: none;
+  }
+  h1{
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .sequence-slider > .sequence-canvas li > .info .camera_caption{
+    font-size: 28px !important;
+    line-height: 28px !important;
+  }
+  .sequence-slider > .sequence-canvas li > .info .btn-info{
+    line-height: 28px !important;
+    height: 28px !important;
+    font-size: 18px !important;
+  }
+  .mod-custom__video .module-content .module-content-inner h3{
+    margin-bottom: 5px;
+  }
+  .caroufredsel_prev, .caroufredsel_next{
+    top: 170px !important;
+    margin-top: 0 !important;
+  }
+  .btn-primary, .btn-small,
+  btn-info{
+    width: auto;
+  }
+
+}
+
+/*== Up to 480px ==================================================
+====================================================================*/
+
+/* Landscape phones and down */
+@media (max-width: 479px) {
+
+  /*contact*/
+
+  .contact_form{
+    width: 100%;
+  }
+
+  .team,
+  .priorities,
+  .blog,
+  .pricing{
+    .item{
+      width: 100% !important;
+    }
+  }
+  .gallery .filters a{
+    margin: 0 3px;
+  }
+  .gallery{
+    .item{
+      width: auto !important;
+      max-width: 100%;
+    }
+  }
+  .blog{
+    .item{
+      .lazy_container{
+        width: 100% !important;
+      }
+    }
+  }
+
+  .caroufredsel_prev, .caroufredsel_next{
+    top: 150px !important;
+    margin-top: 0 !important;
+  }
+
+  /*registration*/
+
+  .page-registration,
+  .page-remind,
+  .page-reset,
+  .page-login,
+  .page-login,
+  .page-profile__edit{
+    form{
+      input,
+      select{
+        width: 100%;
+      }
+      label{
+        display: inline-block;
+      }
+    }
+  }
+
+  /* pagination */
+
+  .pagination{
+    ul{
+      li{
+        display: none;
+        &.pagination-prev,
+        &.pagination-next{
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  /*gallery*/
+
+  .page-gallery{
+    .item_img.img-intro{
+      float: none;
+      margin: 0 0 @baseLineHeight 0;
+    }
+    ul.gallery{
+      .gallery-item{
+        text-align: center;
+        max-width: 100% !important;
+        width: 100% !important;
+        .item_img{
+          float: none;
+          margin: 0 auto @baseLineHeight !important;
+          max-width: 100%;
+          .lazy_container{
+            width: 100% !important;
+          }
+        }
+        a.zoom{
+          display: block;
+        }
+      }
+    }
+  }
+
+  .img-full__left.span5{
+    width: 100%;
+    margin-right:0;
+  }
+
+  /*blog*/
+
+  .item_img{
+    float: none;
+     margin: 0 0 @baseLineHeight 0;
+     max-width: 100%;
+  }
+
+  /*archive*/
+
+  .page-archive_filters{
+    select{
+      display: block;
+      width: 100%;
+    }
+  }
+
+  h3{
+    font-size: 37px;
+    line-height: 44px;
+  }
+
+  /*contact*/
+
+  .contact_details{
+    .contact_details_item{
+      width: 100%;
+      float: none;
+    }
+  }
+
+  /*Modules*/
+
+  /*search*/
+
+  .mod-search__aside{
+    .mod-search_searchword{
+      width: 100%;
+    }
+  }
+
+  /*login*/
+
+  .mod-login__aside{
+    .mod-login_userdata{
+      width: 100%;
+      overflow: hidden;
+    }
+    .mod-login_username,
+    .mod-login_passwd{
+      width: 100%;
+    }
+  }
+
+  div.modal{
+    position:absolute;
+  }
+  
+  #error{
+    input{
+      width: 200px;
+    }
+  }
+  .mod-custom__video .module-content .module-content-inner{
+    font-size: @baseFontSize;
+    line-height: @baseLineHeight;
+    p{
+      padding-bottom: 0;
+    }
+  }
+}
+
+/*== Up to 340px =====================================================
+========================================================================*/
+
+/* Portrait phones */
+@media (max-width: 380px) {
+
+.caroufredsel_prev, .caroufredsel_next{
+  top: 180px !important;
+  margin-top: 0 !important;
+}
+  
+}
